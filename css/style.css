@@ -1,0 +1,226 @@
+/* common style */
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #161214;
+   
+}
+h1, .h1{
+    font-size: 120px;
+    line-height: 146px;
+    font-weight: 700;
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 160px 100%, 0 60px); */
+    clip-path: polygon(0 0,100% 0,100% 100%,80px 100%,0 40px);    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+h2, .h2{
+    font-size: 90px;
+    font-weight: 700;
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 160px 100%, 0 60px); */
+    clip-path: polygon(0 0,100% 0,100% 100%,80px 100%,0 40px);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline-block;
+    line-height: 110px;
+}
+h3 , .h3{
+    font-size: 60px;
+    line-height: 73px;
+}
+h4, .h4{
+    font-size: 48px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h5, .h5{
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+p{
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+#preloader,
+body.preloader-site {
+    overflow: hidden
+}
+
+#preloader {
+    height: 100vh;
+    width: 100vw;
+    background: #00a996;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1000000000000000000
+}
+
+#preloader .content {
+    position: relative;
+    z-index: 5
+}
+
+#preloader .content .logo img {
+    width: 372px
+}
+
+@media (max-width:767px) {
+    #preloader .content .logo img {
+        width: 280px
+    }
+}
+
+#preloader:before {
+    content: "";
+    position: absolute;
+    border-radius: 3000px;
+    top: 50%;
+    left: 50%;
+    height: 1224px;
+    width: 1224px;
+    transform: translateX(-50%) translateY(-50%) scale(1);
+    transition: all .7s ease-in-out;
+    background-color: transparent
+}
+
+#preloader.loaded {
+    opacity: 0;
+    transition: all .3s ease-in-out .9s
+}
+
+#preloader.loaded:before {
+    transform: translateX(-50%) translateY(-50%) scale(5);
+    transition: all .8s ease-in-out .4s;
+    background-color: #fff
+}
+
+#preloader.loaded img {
+    transform: scale(1.1);
+    transition: all 1s ease-in-out
+}
+#mouse-circle {
+    position: absolute;
+    border: 1px solid #00a996;
+    background-color: hsla(0, 0%, 100%, .2);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transition: height, width .3s ease-in-out;
+    z-index: 50000000000000000;
+    pointer-events: none;
+    transition: transform .3s ease-in-out;
+    transform: scale(1)
+}
+
+@media only screen and (max-width:800px) {
+    #mouse-circle {
+        display: none
+    }
+}
+
+#mouse-circle.active {
+    transform: scale(1.3);
+    transition: transform .3s ease-in-out
+}
+
+/* header slider */
+
+.header-content{
+    position: absolute;
+    z-index: 11;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    color: white !important;
+}
+.header-content h4{
+    color: white !important;
+}
+.section-3{
+    background-image: url('/images/background/section-3bg.png');
+}
+
+/* =======================footer section ==================== */
+
+
+
+.footer-section{
+    background-color:#161214;
+    padding-top: 93px;
+    padding-bottom: 63px;
+    color: #fff;
+   
+}
+.footer-section .title h2{
+    color: #fff;
+    margin-bottom: 37px;
+
+}
+.footer-section .contact-part img{
+    width: 91px;
+    margin-right: 23px;
+}
+.footer-section .contact-part h5{
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.footer-section .contact-part .contact-title p{
+    line-height: 24px;
+    letter-spacing: 0.16px;
+    margin-bottom: 40px;
+ 
+}
+.footer-section .contact-part .address p{
+    font-size: 18px;
+    letter-spacing: 0.18px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+.footer-section .contact-part .inner-contact a{
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 0.18px;
+    line-height: 24px;
+    font-weight: 300;
+    display: block;
+}
+.footer-section .social-link{
+    margin-top: 38px;
+}
+.footer-section .social-link li{
+ width: 48px;
+ height: 48px;
+ border-radius: 50%;
+ border: 1px solid #fff;
+ text-align: center;
+}
+
+.footer-section .social-link li a{
+    color: #fff;
+    line-height: 48px;
+    text-align: center;
+}
+.footer-section .footer-logo img{
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.footer-section .bottom-footer{
+    /* max-width: 1906px; */
+    /* margin-left: 140px; */
+}
+.footer-section .bottom-footer a{
+   color: #fff;
+   font-size: 14px;
+   line-height: 24px;
+   letter-spacing: 0.14px;
+   font-weight: 700;
+}

@@ -1,0 +1,154 @@
+
+ 
+/* --------------------------------about page -------------------------------------- */
+/* ---------- banner section --------------*/
+.block-left {
+        width: 47%;
+    }
+.block-right{
+        width:53% ;
+    }
+.banner-head{
+    height: 100vh;
+}
+.inner-contnet{
+    margin-left: 155px;
+    margin-right: 160px;
+}
+.banner-head .banner-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.inner-contnet h3{
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+}
+.inner-contnet p{
+    margin-bottom: 60px;
+}
+.arrow-link span{
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.fa-arrow-right-long{
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: 10px;
+    transition: all .5s;
+}
+.arrow-link:hover .fa-arrow-right-long{
+    margin-left: 20px;
+}
+
+/* ----------------black box section --------------- */
+
+
+.black-box-section{
+    color: #fff;
+}
+.black-box-section .inner-box{
+    width: 582px;
+    position: relative;
+    top: -50%;
+}
+.black-box-section .inner-box .pera{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.18px;
+}
+.black-box-section .subtitle{
+    line-height: 1.56;
+    letter-spacing: 0.18px;
+    margin-top: 60px ;
+    margin-bottom: 30px;
+}
+
+.inner-box{
+    width: 100%;
+    background-color: #161214;
+    padding: 56px 90px 60px 100px;
+}
+.inner-box a{
+    margin-top:60px;
+    color: #fff;
+}
+.slider-inner{
+    /* width: 429px; */
+}
+/* ----------------team  section --------------- */
+.team-section {
+    margin-top: -190px;
+    overflow: hidden;
+    padding-bottom: 210px;
+}
+.team-section h2{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.team-section .team-box{
+    padding: 130px 30px 30px 30px;
+    box-shadow: 0 10px 40px 0 rgba(22, 18, 20, 0.1);
+}
+.team-box h5{
+    line-height: 1.5;
+    letter-spacing: 0.16px;
+    font-weight: 700;
+  
+}
+.team-box span{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+    display: block;
+}
+.team-box p{
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.team-section .owl-carousel .owl-stage-outer{
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+/* ---------------news section -------------- */
+.news-section{
+    margin-bottom: 220px;
+}
+.news-section .title p{
+    font-weight: 700;
+    line-height: 1.56;
+    letter-spacing: 0.18px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+.news-section .row{
+    max-width: 1494px;
+}
+.news-section .load-more{
+    margin-top: 60px;
+}
+.news-section .load-more a{
+  
+    line-height: 28px;
+    letter-spacing: 0.14px;
+    font-size: 14px;
+   color: #00a996;
+}
+.partner-section{}
+.partner-section span{
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 1.2px;
+    font-weight: 700;
+}
+.partner-section .title p{
+    line-height: 28px;
+    max-width: 888px;
+    margin: auto;
+    padding: 60px 0px 100px;
+}
