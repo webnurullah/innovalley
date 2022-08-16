@@ -1,19 +1,21 @@
 
-.container-xxl, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm, .container{
-    max-width: 2076px;
-}
+
 
 /* ========================================== s2560 =========================================== */
 @media (max-width:2560px){
     .team-section .g-xxl-5,
     .team-section .gx-xxl-5 {
-        --bs-gutter-x: 7.75rem;
+        --bs-gutter-x: 120px;
       }
     
       .g-xxl-5,
     .gy-xxl-5 {
-        --bs-gutter-y: 3.75rem;
-      }
+        --bs-gutter-y: 60px;
+    }
+
+      /* .container-xxl, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm, .container{
+        max-width: 2076px;
+    } */
 }
 /* ========================================== s2200 =========================================== */
 @media (max-width:2200px){
@@ -44,9 +46,9 @@
         padding-right: 0px !important;
         padding-left: 0px !important;
     } */
-    .container-xxl, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm, .container{
+    /* .container-xxl, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm, .container{
         max-width: 1776px;
-    }
+    } */
 
     .inner-contnet h3{
         margin-top: 40px;
@@ -58,13 +60,16 @@
         margin-right: 100px;
         margin-left: 100px;
     }
+    .footer-section .logo-box img {
+        width: 90%;
+    }
 }
 
 /* ========================================== s1800 =========================================== */
 @media (max-width:1700px) {
-    .container-xxl, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm, .container{
+    /* .container-xxl, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm, .container{
         max-width: 1476px;
-    }
+    } */
     .black-box-section .inner-box{
         width: 440px;
     }
@@ -117,9 +122,9 @@
         padding-right: 0px !important;
         padding-left: 0px !important;
     } */
-    .container-xxl, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm, .container{
+    /* .container-xxl, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm, .container{
         max-width: 1320px;
-    }
+    } */
   
     p{
         font-size: 16px;
@@ -139,6 +144,7 @@
     .team-section{
         padding-bottom: 150px;
     }
+  
 
 }
 /* ========================================== s1400 =========================================== */
@@ -148,6 +154,16 @@
     }
     .team-section{
         padding-bottom: 130px;
+    }
+    .footer-section .logo-box img{
+        width: 86%;
+    }
+    .footer-section .bottom-footer .footer-menu{
+        margin-left: 0px;
+    }
+    .footer-section .contact-part img{
+        margin-top: 40px;
+        margin-bottom: 30px;
     }
 }
 /* ========================================== s1200 =========================================== */
@@ -171,10 +187,10 @@
         line-height: 24px;
     }
     h5, .h5{
-        font-size: 18px;
+        font-size: 20px;
         margin-top: 0px;
         margin-bottom: 0px;
-        line-height: 18px;
+      
     }
     p{
         font-size: 16px;
@@ -191,6 +207,10 @@
     .team-section{
         padding-bottom: 100px;
     }
+    .partner-section .logo-container{
+        padding-bottom: 100px;
+    }
+   
 }
 /* ========================================== s992 =========================================== */
 @media (max-width:992px){
@@ -210,6 +230,15 @@
     }
     .team-section{
         padding-bottom: 80px;
+    }
+    .footer-section .bottom-footer .footer-menu{
+        margin-left: 0px;
+    }
+    .footer-section .bottom-footer .footer-menu-item{
+        margin-right: 20px;
+    }
+    .footer-section .logo-box img{
+        width: 80%;
     }
 }
 /* ========================================== s768 =========================================== */
@@ -259,6 +288,7 @@
     }
     .team-section{
         margin-top: 0px;
+        padding-bottom: 0px;
     }
     .team-section h2{
         margin-top: 60px;
@@ -281,12 +311,16 @@
         font-size: 10px;
         line-height: 28px;
     }
-    .team-section .container-fluid{
+    .team-slider-section .container{
         padding-left: 0px;
         padding-right: 0px;
-        /* padding-left: var(--bs-gutter-x, 1.5rem); */
+        max-width: 100%;
+        padding-left: var(--bs-gutter-x, 0rem);
     }
-    .team-section .container-fluid .row{
+    .team-section .g-xxl-5, .team-section .gx-xxl-5 {
+        --bs-gutter-x: 0rem;
+    }
+    .team-team-slider-section .container .row{
         margin-right: 0px;
         margin-left: 0px;
     }
@@ -318,9 +352,55 @@
     }
     .partner-section span{
         font-size: 10px;
+        display: inline-block;
     }
-    
-   
+    .partner-section .logo-container{
+        padding-top: 10px;
+        padding-bottom: 60px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ==================footer ================ */
+    .footer-section{
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .footer-section .footer-logo .logo-box{
+       /* width: 164px; */
+        height: 109px;
+     
+    }
+    .footer-section .gx-5, .footer-section .gy-5 {
+        --bs-gutter-y: 15px;
+    }
+    .footer-section .g-md-5{
+        --bs-gutter-x: 15px;
+      }
+      .footer-section .footer-brand-logo{
+        margin-top: 60px;
+      }
+      .footer-section .bottom-footer .footer-menu-item{
+        margin-right: 0px;
+        margin-top: 10px;
+    }
+    .footer-section .bottom-footer{
+        margin-top: 50px;
+    }
+    .footer-section .logo-box img{
+        width: 72%;
+    }
 }
 /* ========================================== s576 =========================================== */
 @media (max-width:576px){

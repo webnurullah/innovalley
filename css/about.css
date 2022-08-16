@@ -139,6 +139,7 @@
     font-size: 14px;
    color: #00a996;
 }
+/* ------------------partner section-------------- */
 .partner-section{}
 .partner-section span{
     font-size: 14px;
@@ -152,3 +153,12 @@
     margin: auto;
     padding: 60px 0px 100px;
 }
+.partner-section .logo-container{
+    padding-top: 30px;
+    padding-bottom: 200px;
+}
+.logo-carousel .logo-img{
+    margin: 0px 30px;
+}
+
+

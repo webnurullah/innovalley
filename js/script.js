@@ -24,6 +24,35 @@ function owlInitialize() {
 
 
 
+  $('.logo-carousel').slick({
+    centerMode: false,
+    arrows: true,
+    centerPadding: '60px',
+    slidesToShow: 6,
+    responsive: [
+    
+      {
+        breakpoint: 1600,
+        settings: {
+          slidesToShow: 5
+        }
+      },
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 4
+        }
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3
+        }
+      }
+    ]
+  });
+
+
 // $(document).ready(function(){
 //     $('.owl-carousel').owlCarousel({
 //       loop:false,
