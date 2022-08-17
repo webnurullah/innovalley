@@ -56,6 +56,7 @@
     .inner-contnet p{
         margin-bottom: 30px;
     }
+  
     .inner-contnet{
         margin-right: 100px;
         margin-left: 100px;
@@ -110,6 +111,9 @@
         margin-bottom: 0px;
         line-height: 24px;
     }
+    .menu-section .site-logo img{
+        max-width: 250px;
+    }
 }
 
 
@@ -125,7 +129,9 @@
     /* .container-xxl, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm, .container{
         max-width: 1320px;
     } */
-  
+    .menu-section .site-logo img{
+        max-width: 230px;
+    }
     p{
         font-size: 16px;
         line-height: 20px;
@@ -134,7 +140,10 @@
     .inner-contnet h3{
         margin-top: 20px;
     }
-    
+    .inner-contnet p{
+        font-size: 18px;
+        line-height: 26px;
+    }
     .black-box-section .inner-box{
         width: 400px;
     }
@@ -144,11 +153,21 @@
     .team-section{
         padding-bottom: 150px;
     }
+    .hamburger{
+        width: 70px;
+        height: 70px;
+    }
+    .menu-toggle span{
+        width: 28px;
+    }
   
 
 }
 /* ========================================== s1400 =========================================== */
 @media (max-width:1400px){
+    .menu-section .site-logo img{
+        max-width: 200px;
+    }
     .news-section{
         margin-bottom: 130px;
     }
@@ -168,6 +187,9 @@
 }
 /* ========================================== s1200 =========================================== */
 @media (max-width:1200px){
+    .menu-section .site-logo img{
+        max-width: 184px;
+    }
     h1, .h1{
         font-size: 60px;
         line-height: 60px;
@@ -197,6 +219,16 @@
         margin-bottom: 0px;
         line-height: 18px;
     }
+    .navigation h4{
+        font-size: 36px;
+    }
+    .hamburger{
+        width: 60px;
+        height: 60px;
+    }
+    .menu-toggle span{
+        width: 26px;
+    }
     .inner-contnet{
         margin-right: 50px;
         margin-left: 50px;
@@ -214,6 +246,9 @@
 }
 /* ========================================== s992 =========================================== */
 @media (max-width:992px){
+    .menu-section .site-logo img{
+        max-width: 164px;
+    }
     .black-box-section .inner-box a{
         margin-top: 40px;
     }
@@ -246,6 +281,39 @@
     .container, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm{
         padding-right: 36px;
         padding-left: 36px;
+    }
+    .navigation .second-menu{
+        margin-top: 60px;
+    }
+  
+    .menu-section .site-logo img{
+        max-width: 154px;
+    }
+    .navigation a{
+        color: #fff;
+        display: inline-block;
+        margin-top: 30px;
+        font-size: 14px;
+        line-height: 2;
+        letter-spacing: 0.14px;
+    }
+    .navigation .language-menu a{
+        margin-top: 0px;
+        font-size: 10px;
+    }
+    .navigation .language-menu{
+        padding: 27px 0px 0px 36px;
+    }
+    .hamburger{
+        width: 48px;
+        height: 48px;
+    }
+    .menu-toggle span{
+        width: 24.5px;
+         height: 2.4px;
+    }
+    .menu-section {
+        padding: 27px 36px 0px 27px;
     }
     .banner-head{
         height: auto;
@@ -296,6 +364,7 @@
     }
     .team-section .team-box{
         padding: 44px 80px 23px 30px;
+        width: 290px;
     }
     .team-box h5{
         font-size: 20px;

@@ -52,27 +52,37 @@ function owlInitialize() {
     ]
   });
 
+ 
 
-// $(document).ready(function(){
-//     $('.owl-carousel').owlCarousel({
-//       loop:false,
-//       margin:15,
-//       nav:false,
-//       dots:false,
-//       responsiveClass:true,
-//       responsive:{
-//           0:{
-//               items:1
+$(document).ready(function(){
+
+
+
+  $('.hamburger').on('click', function() {
+    $(this).toggleClass('open');
+    $('.navigation').toggleClass('hidenavigation');
+  });
+
+
+    // $('.owl-carousel').owlCarousel({
+    //   loop:false,
+    //   margin:15,
+    //   nav:false,
+    //   dots:false,
+    //   responsiveClass:true,
+    //   responsive:{
+    //       0:{
+    //           items:1
               
-//           },
-//           768:{
-//               items:2
+    //       },
+    //       768:{
+    //           items:2
               
-//           },
-//           992:{
-//               items:3
+    //       },
+    //       992:{
+    //           items:3
               
-//           }
-//       }
-//     });
-//   });
+    //       }
+    //   }
+    // });
+  });

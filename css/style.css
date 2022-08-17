@@ -146,6 +146,134 @@ body.preloader-site {
     background-image: url('/images/background/section-3bg.png');
 }
 
+
+
+
+/* =======================header section ==================== */
+.menu-section{
+    padding: 32px 60px 0px 60px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+
+}
+.menu-section .site-logo img{
+    max-width: 290px;
+   
+}
+.hamburger{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #00a996;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 20;
+}
+.language-menu{
+    margin-right: 80px;
+    position: relative;
+    z-index: 20;
+}
+.language-menu span{
+    color: #fff;
+}
+.language-menu a{
+    color: #fff;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.33;
+    letter-spacing: 0.12px;
+
+}
+
+.navigation{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: #161214;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    display: block;
+    z-index: 19;
+}
+.hidenavigation{
+    display: none;
+}
+.menu-toggle{
+  
+}
+.menu-toggle span{
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #161214;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    transition: 0.25s;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+.menu-toggle span:first-child{
+    margin-bottom: 6px;
+}
+.hamburger:hover .menu-toggle span:first-child{
+    position: relative;
+    top: 4px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.hamburger:hover .menu-toggle span:last-child{
+    position: relative;
+    top: -4px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.hamburger.open span:first-child {
+    position: relative;
+    top: 4px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .hamburger.open span:last-child {
+    position: relative;
+    top: -4px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  .navigation h4{
+    color: #00a996;
+  }
+.navigation .second-menu{
+    margin-top: 90px;
+}
+.navigation a{
+    color: #fff;
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 18px;
+  font-weight: bold;
+  line-height: 1.56;
+  letter-spacing: 0.18px;
+}
+.innner-nav{
+    height: 100vh;
+}
 /* =======================footer section ==================== */
 /* mobile screen */
 .contact-mobile-info{
