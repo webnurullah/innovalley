@@ -2,16 +2,17 @@
  
 /* --------------------------------about page -------------------------------------- */
 /* ---------- banner section --------------*/
-.block-left {
+.banner-head .block-left {
         width: 47%;
     }
-.block-right{
+.banner-head .block-right{
         width:53% ;
+        position: relative;
     }
 .banner-head{
     height: 100vh;
 }
-.inner-contnet{
+.banner-head .inner-contnet{
     margin-left: 155px;
     margin-right: 160px;
 }
@@ -20,12 +21,12 @@
   width: 100%;
   object-fit: cover;
 }
-.inner-contnet h3{
+.banner-head .inner-contnet h3{
     margin-top: 100px;
     margin-bottom: 30px;
 
 }
-.inner-contnet p{
+.banner-head .inner-contnet p{
     margin-bottom: 60px;
     font-size: 18px;
     line-height: 30px;
@@ -35,14 +36,35 @@
     line-height: 28px;
 }
 
-.fa-arrow-right-long{
+.banner-head .fa-arrow-right-long{
     font-size: 18px;
     line-height: 28px;
     margin-left: 10px;
-    transition: all .5s;
+    transition: all .3s;
 }
-.arrow-link:hover .fa-arrow-right-long{
+.banner-head .arrow-link:hover .fa-arrow-right-long{
     margin-left: 20px;
+}
+.banner-head .downscrol{
+    color: #fff;
+    position: absolute;
+    top: 93%;
+    right: 0px;
+    bottom: 10%;
+    left: 0px;
+
+}
+.banner-head .downscrol p{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    transition: 0.3s;
+}
+.banner-head .downscrol .fa-arrow-down-long{
+    font-size: 16px;
+}
+.banner-head .downscrol:hover p{
+    margin-bottom: 17px;
 }
 
 /* ----------------black box section --------------- */
@@ -162,5 +184,7 @@
 .logo-carousel .logo-img{
     margin: 0px 30px;
 }
-
+.partner-section h4{
+    margin-top: 60px;
+}
 

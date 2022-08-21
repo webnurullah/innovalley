@@ -1,4 +1,7 @@
-
+.content-exl{
+    max-width: 1806px;
+    margin: auto;
+}
 
 
 /* ========================================== s2560 =========================================== */
@@ -35,7 +38,10 @@
       .team-section .gy-xxl-5 {
         --bs-gutter-y: 3rem;
       }
-   
+      .news-text-slider .next-arrow,
+      .news-text-slider .prev-arrow{
+          bottom: -80px;
+      }
 }
 /* ========================================== s2000 =========================================== */
 @media (max-width:2000px){
@@ -50,27 +56,55 @@
         max-width: 1776px;
     } */
 
-    .inner-contnet h3{
+     .banner-head .inner-contnet h3{
         margin-top: 40px;
     }
-    .inner-contnet p{
+     .banner-head .inner-contnet p{
         margin-bottom: 30px;
     }
   
-    .inner-contnet{
+     .banner-head .inner-contnet{
         margin-right: 100px;
         margin-left: 100px;
     }
     .footer-section .logo-box img {
         width: 90%;
     }
+    .language-menu{
+        margin-right: 150px;
+       
+    }
+      /*=================== content block section =================== */
+      .content-block .content-box{
+        margin-left: 140px;
+        max-width: 700px;
+    }
+    .news-text-slider .next-arrow,
+    .news-text-slider .prev-arrow{
+        bottom: -55px;
+    }
 }
 
-/* ========================================== s1800 =========================================== */
+/* ========================================== s1700 =========================================== */
 @media (max-width:1700px) {
     /* .container-xxl, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm, .container{
         max-width: 1476px;
     } */
+    .mt-245{
+        margin-top: 200px;
+    }
+    .mt-200{
+        margin-top: 160px;
+    }
+    .mb-200{
+        margin-bottom: 160px;
+    }
+    .mt-100{
+        margin-top: 90px;
+    }
+    .mb-100{
+        margin-bottom: 90px;
+    }
     .black-box-section .inner-box{
         width: 440px;
     }
@@ -86,13 +120,13 @@
         margin-bottom: 15px;
     }
     h1, .h1{
-        font-size: 70px;
-        line-height: 73px;
+        font-size: 80px;
+        line-height: 83px;
       
     }
     h2, .h2{
-        font-size: 50px;
-        line-height: 50px; 
+        font-size: 70px;
+        line-height: 70px; 
        
     }
     h3 , .h3{
@@ -114,6 +148,12 @@
     .menu-section .site-logo img{
         max-width: 250px;
     }
+    .job-section .job-box{
+        min-height: 200px;
+    }
+    .job-box .arrow-icon .offene{
+        margin-right: 10px;
+    }
 }
 
 
@@ -129,6 +169,21 @@
     /* .container-xxl, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm, .container{
         max-width: 1320px;
     } */
+    .mt-245{
+        margin-top: 180px;
+    }
+    .mt-200{
+        margin-top: 140px;
+    }
+    .mb-200{
+        margin-bottom: 140px;
+    }
+    .mt-100{
+        margin-top: 85px;
+    }
+    .mb-100{
+        margin-bottom: 85px;
+    }
     .menu-section .site-logo img{
         max-width: 230px;
     }
@@ -137,12 +192,17 @@
         line-height: 20px;
         margin-bottom: 0px;
     }
+    h2, .h2{
+        font-size: 60px;
+        line-height: 60px; 
+       
+    }
     .inner-contnet h3{
         margin-top: 20px;
     }
     .inner-contnet p{
         font-size: 18px;
-        line-height: 26px;
+        line-height: 20px;
     }
     .black-box-section .inner-box{
         width: 400px;
@@ -160,11 +220,35 @@
     .menu-toggle span{
         width: 28px;
     }
-  
+       /*=================== content block section =================== */
+       .content-block .content-box{
+        margin-left: 120px;
+        max-width: 600px;
+    }
 
 }
 /* ========================================== s1400 =========================================== */
 @media (max-width:1400px){
+    .mt-245{
+        margin-top: 160px;
+    }
+    .mt-200{
+        margin-top: 120px;
+    }
+    .mb-200{
+        margin-bottom: 120px;
+    }
+    .mt-100{
+        margin-top: 80px;
+    }
+    .mb-100{
+        margin-bottom: 80px;
+    }
+    h2, .h2{
+        font-size: 50px;
+        line-height: 50px; 
+       
+    }
     .menu-section .site-logo img{
         max-width: 200px;
     }
@@ -173,6 +257,10 @@
     }
     .team-section{
         padding-bottom: 130px;
+    }
+
+    .partner-section h4{
+        margin-top: 40px;
     }
     .footer-section .logo-box img{
         width: 86%;
@@ -184,9 +272,30 @@
         margin-top: 40px;
         margin-bottom: 30px;
     }
+   
+     /*=================== content block section =================== */
+     .content-block .content-box{
+        margin-left: 80px;
+        max-width: 500px;
+    }
 }
 /* ========================================== s1200 =========================================== */
 @media (max-width:1200px){
+    .mt-245{
+        margin-top: 130px;
+    }
+    .mt-200{
+        margin-top: 100px;
+    }
+    .mb-200{
+        margin-bottom: 100px;
+    }
+    .mt-100{
+        margin-top: 75px;
+    }
+    .mb-100{
+        margin-bottom: 75px;
+    }
     .menu-section .site-logo img{
         max-width: 184px;
     }
@@ -229,7 +338,7 @@
     .menu-toggle span{
         width: 26px;
     }
-    .inner-contnet{
+     .banner-head .inner-contnet{
         margin-right: 50px;
         margin-left: 50px;
     }
@@ -242,12 +351,41 @@
     .partner-section .logo-container{
         padding-bottom: 100px;
     }
+
+    .language-menu{
+        margin-right: 100px;
+       
+    }
+    .card-section .card-img{
+        width: 100%;
+    }
    
 }
 /* ========================================== s992 =========================================== */
 @media (max-width:992px){
+    .mt-245{
+        margin-top: 100px;
+    }
+    .mt-200{
+        margin-top: 80px;
+    }
+    .mb-200{
+        margin-bottom: 80px;
+    }
+    .mt-100{
+        margin-top: 70px;
+    }
+    .mb-100{
+        margin-bottom: 70px;
+    }
     .menu-section .site-logo img{
         max-width: 164px;
+    }
+
+   
+    /* =============about page================ */
+    .banner-head .inner-contnet{
+        margin-right: 20px;
     }
     .black-box-section .inner-box a{
         margin-top: 40px;
@@ -266,6 +404,15 @@
     .team-section{
         padding-bottom: 80px;
     }
+    .partner-section h4{
+        margin-top: 20px;
+    }
+
+    /*=================== content block section =================== */
+    .content-block .content-box{
+        margin-left: 40px;
+    }
+    /*=================== footer =================== */
     .footer-section .bottom-footer .footer-menu{
         margin-left: 0px;
     }
@@ -274,7 +421,47 @@
     }
     .footer-section .logo-box img{
         width: 80%;
+    
     }
+
+    /* innovation page */
+    .news-text-slider .next-arrow,
+    .news-text-slider .prev-arrow{
+        display: none;
+    }
+    .link-section .arrow-icon{
+        margin-right: 10px;
+    }
+    .link-section .pera{
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    .link-section h4{
+        margin-bottom: 40px;
+    }
+    .card-section .input-group{
+        box-shadow: 0 30px 60px 0 rgba(21, 18, 20, 0.1);
+    }
+    .card-section .form-control{
+        display: inline-block;
+        margin: 0px;
+        border-radius: 8px 0px 0px 8px;
+        box-shadow: none;
+        background-color: #fff;
+        border: none;
+        padding-left: 20px;
+    }
+
+    .card-section .btn{
+        border-radius: 0px 8px 8px 0px;
+        display: inline-block;
+        font-size: 12px;
+        line-height: 2.33;
+        letter-spacing: 0.12px;
+        padding: 17px 18px;
+    }
+
+
 }
 /* ========================================== s768 =========================================== */
 @media (max-width:768px){
@@ -282,6 +469,49 @@
         padding-right: 36px;
         padding-left: 36px;
     }
+    .mt-245{
+        margin-top: 60px;
+    }
+    .mt-200{
+        margin-top: 60px;
+    }
+    .mb-200{
+        margin-bottom: 60px;
+    }
+    .mt-100{
+        margin-top: 60px;
+    }
+    .mb-100{
+        margin-bottom: 60px;
+    }
+    .content-block{
+        padding-right:36px;
+        padding-left: 36px;
+    }
+    .content-block .content-left{
+        width: 100%;
+    }
+    .content-block .content-right{
+        width: 100%;
+    }
+    .content-block .content-left img{
+        height: 246px;
+        width: 100%;
+    }
+    .content-block .content-box{
+        max-width: 100%;
+        margin-left: 0px;
+    }
+    .content-block .content-box h2{
+        line-height: 1.21;
+        letter-spacing: -1.3px;
+        margin-top: 20px;
+    }
+    .content-block .content-box h4{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
     .navigation .second-menu{
         margin-top: 60px;
     }
@@ -321,32 +551,36 @@
     .banner-head .banner-img{
         height: 596px;
     }
-    .inner-contnet h1{
+     .banner-head .inner-contnet h1{
         margin-top: 60px;
 
     }
-    .inner-contnet h3{
+     .banner-head .inner-contnet h3{
         margin-top: 40px;
         margin-bottom: 20px;
         line-height: 39px;
        
     }
-    .inner-contnet p{
+     .banner-head .inner-contnet p{
         font-size: 14px;
         line-height: 24px;
     }
-    .inner-contnet{
+     .banner-head .inner-contnet{
         margin-right: 36px;
         margin-left: 36px;
     }
-    .block-left {
+    .banner-head .block-left {
         width: 100%;
     }
-    .block-right{
+    .banner-head .block-right{
         width:100% ;
+    }
+    .banner-head .inner-contnet p{
+        margin-bottom: 0px;
     }
     .black-box-section{
         background-color: #161214;
+        margin-top: 30px;
     }
     .black-box-section .inner-box{
         top: 0%;
@@ -427,17 +661,52 @@
         padding-top: 10px;
         padding-bottom: 60px;
     }
+    .content-right .book{
+        width: 284px;
+    }
 
 
-
-
-
-
-
-
-
-
-
+    .link-section ul li{
+        margin-bottom: 15px;
+    }
+    .link-section h4{
+        margin-top: 40px;
+        margin-bottom: 32px;
+    }
+    .link-section .pera{
+        max-width: auto;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .card-section{
+        padding-right: 36px;
+        padding-left: 36px;
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .card-section .card-img{
+        width: 100%;
+    }
+    .card-section .block-left {
+        width: 100%;
+    }
+    .card-section .block-right{
+        width:100% ;
+        position: relative;
+        padding-bottom: 0px;
+        padding-top: 30px;
+    }
+    .card-section h2{
+        margin-bottom: 30px;
+    }
+    .card-section p{
+        margin-top: 20px;
+        margin-bottom: 48px;
+    }
+  
+    .card-section .form-control::placeholder{
+       font-size: 12px;
+    }
 
 
 
