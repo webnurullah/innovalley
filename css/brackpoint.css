@@ -42,6 +42,13 @@
       .news-text-slider .prev-arrow{
           bottom: -80px;
       }
+      #why .slick-header-text .prev-arrow{
+        bottom: 14%;
+     
+    }
+    #why .slick-header-text .next-arrow{
+        bottom: 14%;
+    }
 }
 /* ========================================== s2000 =========================================== */
 @media (max-width:2000px){
@@ -55,7 +62,10 @@
     /* .container-xxl, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm, .container{
         max-width: 1776px;
     } */
-
+    .content-exl{
+        max-width: 1600px;
+        margin: auto;
+    }
      .banner-head .inner-contnet h3{
         margin-top: 40px;
     }
@@ -90,6 +100,12 @@
     /* .container-xxl, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm, .container{
         max-width: 1476px;
     } */
+
+    .content-exl{
+        max-width: 1400px;
+        margin: auto;
+    }
+    
     .mt-245{
         margin-top: 200px;
     }
@@ -154,6 +170,16 @@
     .job-box .arrow-icon .offene{
         margin-right: 10px;
     }
+    .why-thard{
+        margin-top: -260px;
+    }
+    .why-second h1{
+        font-size: 170px;
+        line-height: 173px;
+    }
+    .home-black-box .inner-box h4{
+        margin-left: -0px;
+    }
 }
 
 
@@ -169,6 +195,12 @@
     /* .container-xxl, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm, .container{
         max-width: 1320px;
     } */
+
+    .content-exl{
+        max-width: 1200px;
+        margin: auto;
+    }
+
     .mt-245{
         margin-top: 180px;
     }
@@ -225,10 +257,64 @@
         margin-left: 120px;
         max-width: 600px;
     }
+     /* home page */
+     .prev-arrow {
+        height: 40px;
+        width: 40px;
+        
+    }
+        .next-arrow {
+            height: 40px;
+            width: 40px;
+            
+        }
+        #why h1{
+            font-size: 82px;
+            line-height: 82px;
+        }
+        #why .header-content p{
+            font-size: 62px;
+            line-height: 75px;
+            margin-left: 60px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+           }
+        #why .header-content .arrow-icon a{
+            margin-left: 60px;
+        }
+        #why .slick-header-text .prev-arrow{
+            bottom: 13%;
+            right: auto;
+            top: auto;
+            left: 0%;
+        }
+        #why .slick-header-text .next-arrow{
+            bottom: 13%;
+            right: auto;
+            top: auto;
+            left: 55px;
+        }
+        #why .fa-light {
+            font-size: 22px;
+        }
+        .why-second h1{
+            font-size: 160px;
+            line-height: 160px;
+        }
+        .why-second h3{
+            margin-top: 100px;
+        }
+        #what .what-cards .what-card-header .title .h1 {
+            font-size: 80px;
+        }
 
 }
 /* ========================================== s1400 =========================================== */
 @media (max-width:1400px){
+    .content-exl{
+        max-width: 1024px;
+        margin: auto;
+    }
     .mt-245{
         margin-top: 160px;
     }
@@ -278,9 +364,30 @@
         margin-left: 80px;
         max-width: 500px;
     }
+    #why .slick-header-text .prev-arrow{
+        bottom: 5%;
+    }
+    #why .slick-header-text .next-arrow{
+        bottom: 5%;
+       
+    }
+    .why-second h1{
+        font-size: 120px;
+        line-height: 120px;
+    }
+    .why-second h3{
+        margin-top: 80px;
+    }
+    #what .what-cards .what-card-header .title .h1 {
+        font-size: 70px;
+    }
 }
 /* ========================================== s1200 =========================================== */
 @media (max-width:1200px){
+    .content-exl{
+        max-width: 850px;
+        margin: auto;
+    }
     .mt-245{
         margin-top: 130px;
     }
@@ -301,21 +408,21 @@
     }
     h1, .h1{
         font-size: 60px;
-        line-height: 60px;
+        line-height: 69px;
     }
     h2, .h2{
         font-size: 48px;
-       line-height: 48px;
+       line-height: 50px;
     }
     h3 , .h3{
         font-size: 32px;
-        line-height: 32px;
+        line-height: 39px;
     }
     h4, .h4{
         font-size: 24px;
         margin-top: 0px;
         margin-bottom: 0px;
-        line-height: 24px;
+        line-height: 30px;
     }
     h5, .h5{
         font-size: 20px;
@@ -359,10 +466,63 @@
     .card-section .card-img{
         width: 100%;
     }
-   
+    /* home page */
+    .prev-arrow {
+        height: 40px;
+        width: 40px;
+        
+    }
+        .next-arrow {
+            height: 40px;
+            width: 40px;
+            
+        }
+        #why h1{
+            font-size: 72px;
+            line-height: 72px;
+        }
+        #why .header-content p{
+            font-size: 42px;
+            line-height: 49px;
+            margin-left: 40px;
+            margin-top: 35px;
+            margin-bottom: 35px;
+           }
+        #why .header-content .arrow-icon a{
+            margin-left: 40px;
+        }
+        #why .slick-header-text .prev-arrow{
+            bottom: 10%;
+            
+        }
+        #why .slick-header-text .next-arrow{
+            bottom: 10%;
+        }
+        #why .fa-light {
+            font-size: 20px;
+        }
+        .why-second h1{
+            font-size: 80px;
+            line-height: 93px;
+        }
+        .why-second h3{
+            margin-top: 60px;
+            margin-bottom: 25px;
+        }
+        .why-second span {
+            padding-left: 80px;
+            font-size: 14px;
+        }
+        #what .what-cards .what-card-header .title .h1 {
+            font-size: 60px;
+        }
 }
 /* ========================================== s992 =========================================== */
 @media (max-width:992px){
+    .content-exl{
+        max-width: 700px;
+        margin: auto;
+    }
     .mt-245{
         margin-top: 100px;
     }
@@ -382,7 +542,10 @@
         max-width: 164px;
     }
 
+   /* ============= home page ========= */
+
    
+
     /* =============about page================ */
     .banner-head .inner-contnet{
         margin-right: 20px;
@@ -460,8 +623,20 @@
         letter-spacing: 0.12px;
         padding: 17px 18px;
     }
-
-
+    .why-second h1{
+        font-size: 70px;
+        line-height: 83px;
+    }
+    .why-second h3{
+        margin-top: 70px;
+    }
+    .why-thard {
+        margin-top: -300px;
+    }
+    #what .what-cards .what-card-header .title .h6 {
+        margin-left: 78px;
+        
+    }
 }
 /* ========================================== s768 =========================================== */
 @media (max-width:768px){
@@ -483,6 +658,57 @@
     }
     .mb-100{
         margin-bottom: 60px;
+    }
+    .humbermenu-section{
+        right: 36px;
+    }
+    .content-exl {
+        max-width: 100%;
+        margin: auto;
+        padding-right: 36px;
+        padding-left: 36px;
+    }
+    #why h1{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    #why .header-content p{
+        font-size: 32px;
+        line-height: 39px;
+        margin-left: 15px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #why .header-text-slider-item span{
+        font-size: 12px;
+        line-height: 1;
+        letter-spacing: 0.12px;
+    }
+    #why .header-content .arrow-icon a{
+        margin-left: 15px;
+    }
+    #why .slick-header-text .next-arrow{
+        bottom: 42px;
+        right: 0%;
+        top: auto;
+        left: auto;
+    }
+    #why .slick-header-text .prev-arrow{
+        bottom: 42px;
+        right: auto;
+        top: auto;
+        left: 0%;
+    }
+    #why .prev-arrow{
+        width: 36px;
+        height: 36px;
+    }
+    #why .next-arrow{
+        width: 36px;
+        height: 36px;
+    }
+    #why .fa-light {
+        font-size: 16px;
     }
     .content-block{
         padding-right:36px;
@@ -517,7 +743,7 @@
     }
   
     .menu-section .site-logo img{
-        max-width: 154px;
+        max-width: 158px;
     }
     .navigation a{
         color: #fff;
@@ -543,7 +769,7 @@
          height: 2.4px;
     }
     .menu-section {
-        padding: 27px 36px 0px 27px;
+        padding: 30px 36px 0px 36px;
     }
     .banner-head{
         height: auto;
@@ -738,6 +964,34 @@
     }
     .footer-section .logo-box img{
         width: 72%;
+    }
+    .why-thard{
+        margin-top: 0px;
+    }
+    .why-second h1{
+        font-size: 60px;
+        line-height: 73px;
+    }
+    .why-second span{
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.12px;
+        padding-left: 75px;
+    }
+    .why-second h3{
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+    .why-second{
+        margin-bottom: 60px;
+    }
+    #what .what-cards .what-card-header .title .h1 {
+        font-size: 48px;
+    }
+    #what .what-cards .what-card-header .title .h6 {
+       font-size: 12px;
+       line-height: 14px;
+       letter-spacing: 0.12px;
     }
 }
 /* ========================================== s576 =========================================== */

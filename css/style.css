@@ -20,7 +20,11 @@ h1,
     margin-bottom: 0px;
     display: inline-block;
 }
-
+.why-second h1{
+    font-size: 180px;
+    font-weight: 700;
+    display: block;
+}
 h2,
 .h2 {
     font-size: 90px;
@@ -212,6 +216,7 @@ body.preloader-site {
     position: absolute;
     width: 100%;
     top: 0;
+    z-index: 10;
 
 }
 
@@ -817,7 +822,10 @@ body.preloader-site {
 #header-count {
     position: absolute;
     width: 100%;
-    top: 200px
+    bottom: 48px;
+    text-align: center;
+    right: 0;
+    left: 0;
 }
 
 .slick-slider {
@@ -1646,7 +1654,6 @@ body.preloader-site {
 /* =============================home page ================================== */
 
 #why {
-  
     height: 100vh;
     position: relative;
   
@@ -1726,7 +1733,11 @@ body.preloader-site {
 #why .header-text-slider {
     /* position: relative;
     margin-top: 114px; */
-    max-width: 90%
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #why .header-text-slider h4 {
@@ -1738,7 +1749,7 @@ body.preloader-site {
 }
 #why .slick-header-text .prev-arrow {
     position: absolute;
-    top: 660px;
+    bottom: 22%;
     /* left: 36px; */
     border: 2px solid #fff;
     display: flex;
@@ -1748,14 +1759,16 @@ body.preloader-site {
 
 #why .slick-header-text .next-arrow {
     position: absolute;
-    top: 660px;
+    bottom: 22%;
     left: 63px;
     border: 2px solid #fff;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+.slick-dotted.slick-slider {
+    margin-bottom: 0px !important;
+}
 @media only screen and (max-width:1400px) {
    
     #why {
@@ -1763,9 +1776,6 @@ body.preloader-site {
         position: relative;
         padding: 0;
         overflow: hidden
-    }
-    #why h1{
-        color: #fff;
     }
  
     /* #why .header-image-container {
@@ -1793,14 +1803,14 @@ body.preloader-site {
         width: 100vw;
         height: 100vh;
     }
-
+/* 
     #why #header-count {
         position: relative;
         width: auto;
         top: auto;
         padding-left: 36px;
         margin: 30px 0
-    }
+    } */
 
     /* #why .header-text-slider {
         margin-top: 0;
@@ -1850,4 +1860,241 @@ body.preloader-site {
     } */
 
 
+}
+.home-black-box .inner-box h4{
+    margin-left: -30px;
+}
+.why-second  span{
+    line-height: 1.56;
+    letter-spacing: 0.18px;
+    padding-left: 187px;
+}
+.why-second h3{
+    margin-top: 125px;
+    margin-bottom: 30px;
+}
+.why-second p{
+    font-weight: 300;
+    line-height: 1.67;
+}
+.why-thard{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/banner/why-thard.png');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    margin-top: -360px;
+}
+
+
+
+#what {
+    position: relative;
+    height: 714px;
+    background-color: #161214;
+    max-width: 100vw;
+    overflow: hidden
+}
+
+@media only screen and (max-width:800px) {
+    #what {
+        height: 100%;
+        background-color: #fff
+    }
+}
+
+#what .what-cards {
+    width: 100%
+}
+
+#what .what-cards .what-card-header {
+    background: #161214;
+    width: 15% !important
+}
+
+#what .what-cards .what-card-header #what-count {
+    display: none
+}
+
+#what .what-cards .what-card-header .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%) rotate(-90deg)
+}
+
+#what .what-cards .what-card-header .title * {
+    color: #fff
+}
+
+#what .what-cards .what-card-header .title .h1 {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 110px 100%, 0 20px);
+    font-size: 90px;
+    line-height: 1;
+}
+
+#what .what-cards .what-card-header .title .h6 {
+    margin-left: 110px;
+    font-size: 18px;
+    letter-spacing: 0.18px;
+}
+
+@media only screen and (max-width:1600px) {
+    #what .what-cards .what-card-header {
+        width: 18% !important
+    }
+}
+
+@media only screen and (max-width:900px) {
+    #what .what-cards .what-card-header {
+        width: 20% !important
+    }
+}
+
+@media only screen and (max-width:800px) {
+    #what .what-cards .what-card-header {
+        width: 100% !important;
+        height: auto !important;
+        padding: 46px 36px
+    }
+
+    #what .what-cards .what-card-header .title {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none
+    }
+
+    #what .what-cards .what-card-header .title .h2 {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 110px 100%, 0 20px);
+        font-size: 48px
+    }
+
+   
+
+    #what .what-cards .what-card-header #what-count {
+        display: block;
+        margin-top: 34px;
+        text-align: center;
+    }
+
+    #what .what-cards .what-card-header #what-count .slick-count * {
+        color: #fff
+    }
+}
+
+#what .what-cards .what-card {
+    position: relative;
+    width: 21.25%;
+    float: left;
+    height: 714px;
+    overflow: hidden
+}
+
+#what .what-cards .what-card:nth-of-type(2) .what-card-content {
+    background-color: #161214
+}
+
+#what .what-cards .what-card:nth-of-type(2) .what-card-content .h4 {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 40px 100%, 0 20px)
+}
+
+#what .what-cards .what-card .what-card-content {
+    padding: 29px 65px;
+    position: absolute;
+    transition: all .3s ease-in-out;
+    bottom: calc(-100% + 120px);
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    background-color:#161214;
+}
+
+#what .what-cards .what-card .what-card-content * {
+    color: #fff;
+    letter-spacing: 0.18px;
+}
+
+#what .what-cards .what-card .what-card-content .h4 {
+    margin-bottom: 70px;
+    margin-left: 0;
+    font-weight: 700;
+    transition: all .3s ease-in-out
+}
+
+#what .what-cards .what-card .what-card-content .h6 {
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+}
+
+#what .what-cards .what-card .what-card-content p {
+    line-height: 28px;
+    letter-spacing: 0.18px;
+}
+#what .what-cards .what-card .what-card-content .what-pera {
+    font-weight: 300 !important;
+    margin-top: 30px;
+    margin-bottom: 100px;
+   
+}
+
+#what .what-cards .what-card .what-card-image {
+    width: 100%;
+    height: 100%
+}
+
+#what .what-cards .what-card .what-card-image img {
+    position: absolute;
+    left: 0;
+    z-index: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+#what .what-cards .what-card .what-card-image:after {
+    content: "";
+    background: #161214;
+    opacity: .5;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+#what .what-cards .what-card:hover .what-card-content {
+    bottom: 0;
+    padding-top: 65px;
+    background-color: #161214;
+    transition: all .5s ease-in-out
+}
+
+#what .what-cards .what-card:hover .what-card-content .h4 {
+    margin-left: -39px;
+    transition: all .5s ease-in-out .2s
+}
+
+@media only screen and (max-width:800px) {
+    #what .what-cards .what-card {
+        width: 100% !important;
+        float: none;
+        height: 577px
+    }
+
+    #what .what-cards .what-card p {
+        line-height: 18px !important
+    }
+
+    #what .what-cards .what-card .h6 {
+        margin-bottom: 30px !important
+    }
+    #what .what-cards .what-card .what-card-content .h4 {
+        font-size: 36px;
+        /* margin-bottom: 24px; */
+    }
 }

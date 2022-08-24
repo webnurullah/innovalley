@@ -189,7 +189,7 @@
                             slidesToShow: 1,
                             slidesToScroll: 1,
                             centerPadding: "0",
-                            arrows: !1,
+                            arrows: !0,
                             dots: !1
                         }
                     }]
