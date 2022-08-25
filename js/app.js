@@ -310,7 +310,7 @@
                     autoplaySpeed: 3e3,
                     asNavFor: ".slick-news-images",
                     speed: 750,
-                    arrows: !1,
+                    arrows: !0,
                     prevArrow: '<div class="prev-arrow"><i class="fa-light fa-chevron-left"></i></div>',
                     nextArrow: '<div class="next-arrow"><i class="fa-light fa-chevron-right"></i></div>',
                     dots: !0,
@@ -319,7 +319,7 @@
                         e.slideCount < 10 ? i()(".news-count").html('<div class="slick-count"><span id="current">01</span><div class="slick-progress"><div class="slick-progress-bar" style="width: ' + 100 / o * 1 + '%"></div></div><span  id="total">0' + o + "</span></div>") : i()(".news-count").html('<div class="slick-count"><span  id="current">01</span><div class="slick-progress"><div class="slick-progress-bar" style="width: ' + 100 / o * 1 + '%"></div></div><span  id="total">' + o + "</span></div>")
                     },
                     responsive: [{
-                        breakpoint: 600,
+                        breakpoint: 768,
                         settings: {
                             centerMode: !1,
                             slidesToShow: 1,
