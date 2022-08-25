@@ -310,13 +310,13 @@
                     autoplaySpeed: 3e3,
                     asNavFor: ".slick-news-images",
                     speed: 750,
-                    arrows: !0,
+                    arrows: !1,
                     prevArrow: '<div class="prev-arrow"><i class="fa-light fa-chevron-left"></i></div>',
                     nextArrow: '<div class="next-arrow"><i class="fa-light fa-chevron-right"></i></div>',
                     dots: !0,
                     customPaging: function (e, s) {
                         var o = e.slideCount;
-                        e.slideCount < 10 ? i()("#news-count").html('<div class="slick-count"><span id="current">01</span><div class="slick-progress"><div class="slick-progress-bar" style="width: ' + 100 / o * 1 + '%"></div></div><span  id="total">0' + o + "</span></div>") : i()("#news-count").html('<div class="slick-count"><span  id="current">01</span><div class="slick-progress"><div class="slick-progress-bar" style="width: ' + 100 / o * 1 + '%"></div></div><span  id="total">' + o + "</span></div>")
+                        e.slideCount < 10 ? i()(".news-count").html('<div class="slick-count"><span id="current">01</span><div class="slick-progress"><div class="slick-progress-bar" style="width: ' + 100 / o * 1 + '%"></div></div><span  id="total">0' + o + "</span></div>") : i()(".news-count").html('<div class="slick-count"><span  id="current">01</span><div class="slick-progress"><div class="slick-progress-bar" style="width: ' + 100 / o * 1 + '%"></div></div><span  id="total">' + o + "</span></div>")
                     },
                     responsive: [{
                         breakpoint: 600,
@@ -330,7 +330,7 @@
                         }
                     }]
                 }), i()(".slick-news-text").on("afterChange", (function (e, s, o, t) {
-                    s.slideCount < 10 ? (i()("#news-count #current").html("0" + (o + 1)), i()("#news-count #total").html("0" + s.slideCount), i()("#news-count .slick-progress-bar").css("width", 100 / s.slideCount * (o + 1))) : o < 9 ? (i()("#news-count #current").html("0" + (o + 1)), i()("#news-count #total").html(s.slideCount), i()("#news-count .slick-progress-bar").css("width", 100 / s.slideCount * (o + 1))) : (i()("#news-count #current").html(o + 1), i()("#news-count #total").html(s.slideCount), i()("#news-count .slick-progress-bar").css("width", 100 / s.slideCount * (o + 1)))
+                    s.slideCount < 10 ? (i()(".news-count #current").html("0" + (o + 1)), i()(".news-count #total").html("0" + s.slideCount), i()(".news-count .slick-progress-bar").css("width", 100 / s.slideCount * (o + 1))) : o < 9 ? (i()(".news-count #current").html("0" + (o + 1)), i()(".news-count #total").html(s.slideCount), i()(".news-count .slick-progress-bar").css("width", 100 / s.slideCount * (o + 1))) : (i()(".news-count #current").html(o + 1), i()(".news-count #total").html(s.slideCount), i()(".news-count .slick-progress-bar").css("width", 100 / s.slideCount * (o + 1)))
                 })), i()(".slick-team").slick({
                     pauseOnFocus: !1,
                     pauseOnHover: !1,

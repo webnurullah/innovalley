@@ -1042,12 +1042,12 @@ progress {
 
 .g-2,
 .gx-2 {
-  --bs-gutter-x: 0.5rem;
+  --bs-gutter-x: 0.625rem;
 }
 
 .g-2,
 .gy-2 {
-  --bs-gutter-y: 0.5rem;
+  --bs-gutter-y: 0.625rem;
 }
 
 .g-3,
@@ -1941,14 +1941,37 @@ progress {
   }
 
   .g-xxl-5,
-.gx-xxl-5 {
-    --bs-gutter-x: 3rem;
-  }
+  .gx-xxl-5 {
+      --bs-gutter-x: 3.75rem;
+    }
+  
+    .g-xxl-5,
+  .gy-xxl-5 {
+      --bs-gutter-y: 1.875rem;
+    }
+}
 
+@media (min-width: 1620px){
   .g-xxl-5,
-.gy-xxl-5 {
-    --bs-gutter-y: 3rem;
-  }
+  .gx-xxl-5 {
+      --bs-gutter-x: 5.625rem;
+    }
+  
+    .g-xxl-5,
+  .gy-xxl-5 {
+      --bs-gutter-y: 2.8125rem;
+    }
+}
+@media (min-width: 1920px){
+  .g-xxl-5,
+  .gx-xxl-5 {
+      --bs-gutter-x: 7.5rem;
+    }
+  
+    .g-xxl-5,
+  .gy-xxl-5 {
+      --bs-gutter-y: 3.75rem;
+    }
 }
 .table {
   --bs-table-bg: transparent;
