@@ -11,30 +11,33 @@ body {
 
 h1,
 .h1 {
+    clip-path: polygon(0 0,100% 0,100% 100%,90px 100%,0 50px);
     font-size: 120px;
     line-height: 146px;
     font-weight: 700;
-    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 160px 100%, 0 60px); */
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 80px 100%, 0 40px);
     margin-top: 0px;
     margin-bottom: 0px;
     display: inline-block;
 }
 .why-second h1{
+    clip-path: polygon(0 0,100% 0,100% 100%,130px 100%,0 60px);
     font-size: 180px;
     font-weight: 700;
     display: block;
+    line-height: 219px;
 }
 h2,
 .h2 {
+  
     font-size: 90px;
     font-weight: 700;
-    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 160px 100%, 0 60px); */
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 80px 100%, 0 40px);
     margin-top: 0px;
     margin-bottom: 0px;
     display: inline-block;
     line-height: 110px;
+}
+.h2{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 80px 100%, 0 40px);
 }
 
 h3,
@@ -50,12 +53,15 @@ h4,
     margin-bottom: 0px;
    line-height: 58px;
 }
-
+.h4{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 45px 100%, 0 30px);
+}
 h5,
 .h5 {
     font-size: 24px;
     margin-top: 0px;
     margin-bottom: 0px;
+    line-height: 28px;
 }
 
 p {
@@ -63,16 +69,7 @@ p {
     margin-bottom: 0px;
     line-height: 28px;
 }
-.arrow-icon{
-    transition:  all .3s;
-}
-.arrow-icon .offene{
-    margin-right: 10px;
-    transition:  all .3s;
-}
-.arrow-icon:hover .offene{
-    margin-right: 20px;
-}
+
 
 .mt-200 {
     margin-top: 200px;
@@ -525,9 +522,9 @@ body.preloader-site {
     width: 60%;
 }
 
-.job-box .arrow-icon .offene {
+/* .job-box .arrow-icon .offene {
     margin-right: 20px;
-}
+} */
 
 .job-section .job-box .arrow-icon {
     position: relative;
@@ -588,7 +585,7 @@ body.preloader-site {
    
 }
 
-.last-block .inno-box span{
+.last-block .inno-box .span{
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 0.18px;
@@ -1098,7 +1095,7 @@ body.preloader-site {
 .news .h2 {
     margin-top: 60px; 
     margin-bottom: 60px;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 80px 100%, 0 40px)
+   
 }
 .news .h4{
     margin-bottom: 45px;
@@ -1182,7 +1179,7 @@ body.preloader-site {
     .news .h2 {
         margin-top: 0px;
         margin-bottom: 30px;
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 80px 100%, 0 40px);
+      
         transform: none !important;
         opacity: 1 !important
     }
@@ -1327,17 +1324,31 @@ body.preloader-site {
 .arrow-link span {
     font-weight: 700;
     line-height: 28px;
+    font-size: 18px;
+    letter-spacing:  0.18px;
+   
 }
-
-.banner-head .fa-arrow-right-long {
+.arrow-link .fa-arrow-right-long {
     font-size: 18px;
     line-height: 28px;
-    margin-left: 10px;
+   left: 10px;
     transition: all .3s;
+    position: relative;
+    top: 2px;
 }
-
-.banner-head .arrow-link:hover .fa-arrow-right-long {
-    margin-left: 20px;
+.arrow-link:hover .fa-arrow-right-long {
+   left: 20px;
+}
+.arrow-icon{
+    transition:  all .3s;
+}
+.arrow-icon .offene{
+    margin-right: 10px;
+    transition:  all .3s;
+    position: relative;
+}
+.arrow-icon:hover .offene{
+    margin-right: 20px;
 }
 
 .banner-head .downscrol {
@@ -1390,7 +1401,10 @@ body.preloader-site {
     position: relative;
     top: -50%;
 }
-
+.black-box-section .inner-box h4{
+    font-weight: 700;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50px 100%, 0 20px);
+}
 .black-box-section .inner-box .pera {
     font-weight: 300;
     font-size: 18px;
@@ -1490,7 +1504,7 @@ body.preloader-site {
 /* ------------------partner section-------------- */
 
 
-.partner-section span {
+.partner-section .span {
     font-size: 14px;
     line-height: 28px;
     letter-spacing: 1.2px;
@@ -1742,6 +1756,7 @@ body.preloader-site {
     /* padding: 0 60px */
 }
 #why h1{
+    font-size: 120px;
     line-height: 120px;
     color: #00a996;
 }
@@ -1942,7 +1957,8 @@ body.preloader-site {
 
 }
 .home-black-box .inner-box h4{
-    margin-left: -30px;
+    margin-left: -45px;
+  
 }
 .why-second  span{
     line-height: 1.56;
@@ -2012,7 +2028,7 @@ body.preloader-site {
 }
 
 #what .what-cards .what-card-header .title .h1 {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 110px 100%, 0 20px);
+  
     font-size: 90px;
     line-height: 1;
 }
@@ -2050,7 +2066,6 @@ body.preloader-site {
     }
 
     #what .what-cards .what-card-header .title .h2 {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 110px 100%, 0 20px);
         font-size: 48px
     }
 
@@ -2079,9 +2094,6 @@ body.preloader-site {
     background-color: #161214
 }
 
-#what .what-cards .what-card:nth-of-type(2) .what-card-content .h4 {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 40px 100%, 0 20px)
-}
 
 #what .what-cards .what-card .what-card-content {
     padding: 29px 65px;
@@ -2178,6 +2190,44 @@ body.preloader-site {
     }
     #what .what-cards .what-card .what-card-content .h4 {
         font-size: 36px;
-        /* margin-bottom: 24px; */
+        line-height: 44px;
+
     }
+}
+
+
+/* light box */
+
+/* lightbox popup */
+.light-show-image-top{
+    height: 420px;
+    width: 100%;
+    object-fit: cover;
+  }
+.modal.lightbox {
+    -webkit-backdrop-filter: blur(0px);
+            backdrop-filter: blur(0px);
+        background-color: #161214bb;
+   
+}
+.lightbox-popup{
+    background-color: white;
+}
+
+.modal.lightbox .btn-close{
+    color: #fff;
+    background-color: transparent !important;
+    border-radius: 0 !important;
+    opacity: 1 !important;
+}
+.carousel-inner{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 30px 60px 0 rgba(21, 18, 20, 0.1);
+    height: 987px;
+}
+@media (min-width: 1200px){ 
+.modal-xl {
+    max-width: 948px;
+}
 }
