@@ -288,14 +288,15 @@
                     arrows: !1,
                     dots: !1,
                     responsive: [{
-                        breakpoint: 600,
+                        breakpoint: 768,
                         settings: {
                             centerMode: !1,
                             slidesToShow: 1,
                             slidesToScroll: 1,
                             fade: !1,
                             centerPadding: "0",
-                            dots: !1
+                            dots: !1,
+                            autoplay: !0
                         }
                     }]
                 }), i()(".slick-news-text").slick({

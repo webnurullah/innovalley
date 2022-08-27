@@ -175,7 +175,28 @@ body.preloader-site {
     transform: scale(1.3);
     transition: transform .3s ease-in-out
 }
-
+.fixed-contact-phone{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    background-color: #00a996;
+    z-index: 11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fixed-contact-phone:hover{
+    background-color: #fff;
+    color:#00a996 ;
+}
+.fixed-contact-phone .fa-phone-volume{
+   
+    transform: rotate(-40deg);
+    font-size: 30px;
+}
 /* header slider */
 
 .header-content {
@@ -516,6 +537,19 @@ body.preloader-site {
 .job-section .job-box img {
     width: 70%;
     transition: all .3s;
+    position: absolute;
+    top: 50%;
+    left: 50;
+    transform: translate(-50%, -50%);
+}
+.job-section .job-box .img-hover{
+    opacity: 0;
+}
+.job-section .job-box:hover .img-hover{
+    opacity: 1;
+}
+.job-section .job-box:hover .img-show{
+    opacity: 0;
 }
 
 .job-section .job-box:hover img {
@@ -1354,9 +1388,8 @@ body.preloader-site {
 .banner-head .downscrol {
     color: #fff;
     position: absolute;
-    top: 93%;
+    top: 90%;
     right: 0px;
-    bottom: 10%;
     left: 0px;
 
 }
@@ -1750,11 +1783,10 @@ body.preloader-site {
 #why {
     height: 100vh;
     position: relative;
-  
-   
     overflow: hidden;
     /* padding: 0 60px */
 }
+
 #why h1{
     font-size: 120px;
     line-height: 120px;
@@ -2224,7 +2256,17 @@ body.preloader-site {
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 30px 60px 0 rgba(21, 18, 20, 0.1);
-    height: 987px;
+}
+.light-box-content-inner{
+    padding: 60px 30px;
+}
+.light-box-content-inner p{
+    line-height: 30px;
+}
+.light-box-content-inner h3{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-weight: 700;
 }
 @media (min-width: 1200px){ 
 .modal-xl {

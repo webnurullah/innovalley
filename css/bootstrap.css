@@ -6206,11 +6206,11 @@ textarea.form-control-lg {
 }
 .ratio::before {
   display: block;
-  padding-top: var(--bs-aspect-ratio);
+  /* padding-top: var(--bs-aspect-ratio); */
   content: "";
 }
 .ratio > * {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 0;
   width: 100%;
