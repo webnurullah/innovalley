@@ -819,7 +819,8 @@ body.preloader-site {
 .slick-what .next-arrow {
     right: 10px;
     left: auto;
-    transform: translateY(-50%)
+    transform: translateY(-50%);
+    display: flex;
 }
 
 .slick-what .next-arrow,
@@ -833,7 +834,8 @@ body.preloader-site {
 .slick-what .prev-arrow {
     right: auto;
     left: 10px;
-    transform: translateY(-50%) rotate(180deg)
+    transform: translateY(-50%) rotate(180deg);
+    display: flex;
 }
 
 @media only screen and (max-width:1600px) {
