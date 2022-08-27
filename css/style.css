@@ -6,7 +6,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #161214;
     position: relative;
-
 }
 
 h1,
@@ -2033,6 +2032,9 @@ body.preloader-site {
         height: 100%;
         background-color: #fff
     }
+}
+#what i.fa-light.fa-chevron-left {
+    transform: rotate(175deg);
 }
 
 #what .what-cards {
