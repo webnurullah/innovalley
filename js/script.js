@@ -62,7 +62,10 @@ $(document).ready(function(){
     $(this).toggleClass('open');
     $('.navigation').toggleClass('hidenavigation');
   });
-
+  $('.hamburger-close').on('click', function() {
+    $('.hamburger').toggleClass('open');
+    $('.navigation').toggleClass('hidenavigation');
+  });
 
     // $('.owl-carousel').owlCarousel({
     //   loop:false,

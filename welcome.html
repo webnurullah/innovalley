@@ -40,13 +40,7 @@
 <body>
 
     <span id="mouse-circle"></span>
-    <section id="preloader">
-      <div class="content">
-        <div class="logo">
-          <img src="images/svg/logo-white.svg"/>
-        </div>
-      </div>
-    </section>
+    
   
 <div class="menu-section">
     <div class="d-flex justify-content-between">
@@ -73,7 +67,7 @@
 </div>
 <nav class="navigation hidenavigation">
     <div class="language-menu">
-        <a class="d-md-none text-uppercase "   href="">italiano</a>
+        <a class="d-md-none text-uppercase"   href="">italiano</a>
         <span class="d-md-none" > ┋ </span>
         <a class="d-md-none text-uppercase"  href="">English</a>
     </div>
@@ -89,9 +83,9 @@
                 <h4 class="second-menu" >Das Netzwerk</h4>
                 <ul class="list-unstyled" >
                     <li><a href="about.html">About</a></li>
-                    <li><a href="about.html">Team</a></li>
-                    <li><a href="">Neues aus dem Netzwerk</a></li>
-                    <li><a href="">Partner & Sponsoren</a></li>
+                    <li><a class="hamburger-close" href="about.html#team-anchor">Team</a></li>
+                    <li><a class="hamburger-close" href="about.html#news-anchor">Neues aus dem Netzwerk</a></li>
+                    <li><a class="hamburger-close" href="about.html#partner-anchor">Partner & Sponsoren</a></li>
                 </ul>
             
         </div>
@@ -105,17 +99,17 @@
     <div class="d-flex h-100" >
         <div class="block-left d-flex ">
             <div class="inner-contnet align-self-center">
-                <h1 class="h1 moveleft left">Welcome</h1>
-                <h3 class="fw-bold moveright right" >Lerne Dein neues Zuhause kennen</h3>
-                <p class="moveright right" >Neu im InnoValley? Kein Problem! Wir helfen dir, dich in deinem neuen Zuhause zurechtzufinden und Kontakte zu knüpfen. InnoValley bietet Neuankömmlingen zahlreiche Möglichkeiten, um sich hier wohlzufühlen, ihre neue Heimat kennenzulernen und zu entdecken. Denn: Das Eisacktal hat Einiges zu bieten! Wir entwi-ckeln derzeit in Zusammenarbeit mit den HR-Abteilungen der Unternehmen und Arbeitsforschungsinstituten regional anwendbare Dienstleistungsmodelle im Bereich Onboarding-Services für neue Mitarbeiter:innen und Auszubildende. Das Angebot wird Welcome-Pakete und -Services beinhalten, die bei der Woh-nungsvermittlung und Freizeitgestaltung weiterführend unterstützen. </p>
-                    <a class="moveleft left arrow-link text-decoration-none d-flex align-items-center d-none d-md-block" href="#card-id">
+                <h1 class="h1">Welcome</h1>
+                <h3 class="fw-bold" >Lerne Dein neues Zuhause kennen</h3>
+                <p>Neu im InnoValley? Kein Problem! Wir helfen dir, dich in deinem neuen Zuhause zurechtzufinden und Kontakte zu knüpfen. InnoValley bietet Neuankömmlingen zahlreiche Möglichkeiten, um sich hier wohlzufühlen, ihre neue Heimat kennenzulernen und zu entdecken. Denn: Das Eisacktal hat Einiges zu bieten! Wir entwi-ckeln derzeit in Zusammenarbeit mit den HR-Abteilungen der Unternehmen und Arbeitsforschungsinstituten regional anwendbare Dienstleistungsmodelle im Bereich Onboarding-Services für neue Mitarbeiter:innen und Auszubildende. Das Angebot wird Welcome-Pakete und -Services beinhalten, die bei der Woh-nungsvermittlung und Freizeitgestaltung weiterführend unterstützen. </p>
+                    <a class="arrow-link text-decoration-none d-flex align-items-center d-none d-md-block" href="#card-id">
                         <span>Zum Team</span>
                         <i class="fa-solid fa-arrow-right-long"></i>
                     </a>
             </div>
         </div>
         <div class="block-right d-none d-md-block">
-            <img class="banner-img moveright right" src="images/banner/welcome_banner.png" alt="">
+            <img class="banner-img" src="images/banner/welcome_banner.png" alt="">
             <div class="downscrol text-center">
                 <p>SCROLL</p>
                 <i class="fa-thin fa-arrow-down-long"></i>
@@ -130,13 +124,13 @@
 <section class="content-block w-100 mt-200 mb-100 d-none d-md-block overflow-hidden">
     <div class="d-flex flex-column flex-md-row align-items-center">
         <div class="content-left">
-            <img class="moveleft left" src="images/welcome/block_two.png" alt="">
+            <img src="images/welcome/block_two.png" alt="">
         </div>
         <div class="content-right ">
             <div class="content-box h-100">
-                <h2 class="h2 moveright right" >Welcome</h2>
-                <h4 class="moveright right" >Lass dich bei der Hand nehmen.</h4>
-                <p class="moveright right" >Mit unserem Welcome-Paket kannst du dem Bürokratiedschungel entfliehen und das Eisacktal kennenlernen. Damit du hier erste Wurzeln schlagen kannst.
+                <h2 class="h2" >Welcome</h2>
+                <h4>Lass dich bei der Hand nehmen.</h4>
+                <p>Mit unserem Welcome-Paket kannst du dem Bürokratiedschungel entfliehen und das Eisacktal kennenlernen. Damit du hier erste Wurzeln schlagen kannst.
                     <br> <br>
                     Ein guter Überblick über die bürokratischen Anforderungen ist ein wichtiger erster Schritt, um anzukommen. InnoValley hilft dir durch den Bürokratiedschungel, indem wir dir alle wichtigen Informationen zu den verschiedenen Amtsgängen geben.</p>
             </div>
@@ -148,15 +142,15 @@
     <div class="d-flex flex-column flex-md-row align-items-center">
         <div class="content-right ">
             <div class="content-box h-100">
-                <h2 class="moveleft left" > <span class="h2 "> Leisure</span> & Lifestyle</h2>
-                <h4 class="moveleft left" >Das Eisacktal bietet vielfältige Möglichkeiten,</h4>
-                <p class="moveleft left" >deine Freizeit zu gestalten. Das Leisure-and-Lifestyle-Paket vernetzt dich mit Freizeitgruppen und organisiert Events für eine optimale Work-Life-Balance. Damit Du das Eisacktal als Erlebnisoase kennenlernst. 
+                <h2> <span class="h2 "> Leisure</span> & Lifestyle</h2>
+                <h4>Das Eisacktal bietet vielfältige Möglichkeiten,</h4>
+                <p>deine Freizeit zu gestalten. Das Leisure-and-Lifestyle-Paket vernetzt dich mit Freizeitgruppen und organisiert Events für eine optimale Work-Life-Balance. Damit Du das Eisacktal als Erlebnisoase kennenlernst. 
                     <br> <br>
                     Südtirol besticht neben spannenden Arbeitsplätzen vor allem durch die hohe Lebensqualität. Aktivitäten zur Freizeitgestaltung außerhalb der Arbeitszeiten dür-fen da natürlich nicht zu kurz kommen. Dank des vielfältigen Angebotes ist für alle etwas dabei. </p>
             </div>
         </div>
         <div class="content-left">
-            <img class="moveright right" src="images/welcome/block_three.png" alt="">
+            <img src="images/welcome/block_three.png" alt="">
          
         </div>
     </div>
@@ -166,14 +160,14 @@
  <section class="content-block w-100 mb-100 d-none d-md-block overflow-hidden">
     <div class="d-flex flex-column flex-md-row align-items-center">
         <div class="content-left">
-            <img class="moveleft left" src="images/welcome/block_four.png" alt="">
+            <img src="images/welcome/block_four.png" alt="">
          
         </div>
         <div class="content-right ">
             <div class="content-box h-100">
-                <h2 class="moveright right" > <span class="h2"> Living</span> & Accomodation</h2>
-                <h4 class="moveright right" >Finde dein eigenes Reich,</h4>
-                <p class="moveright right" >Mit unserem Welcome-Paket kannst du dem Bürokratiedschungel entfliehen und das Eisacktal wo du dich entfalten kannst. Beim Living-and-Accommodation-Paket begleitet dich dein InnoValley-Buddy bei der Suche nach deiner persönlichen Unterkunft. Damit du Dich hier vom ersten Tag an wohlfühlst. 
+                <h2> <span class="h2"> Living</span> & Accomodation</h2>
+                <h4>Finde dein eigenes Reich,</h4>
+                <p>Mit unserem Welcome-Paket kannst du dem Bürokratiedschungel entfliehen und das Eisacktal wo du dich entfalten kannst. Beim Living-and-Accommodation-Paket begleitet dich dein InnoValley-Buddy bei der Suche nach deiner persönlichen Unterkunft. Damit du Dich hier vom ersten Tag an wohlfühlst. 
                     <br> <br>
                     Der Wohnungsmarkt in Brixen ist heiß begehrt, weshalb es einige Dinge zu beachten gilt. Würdest Du lieber dein neues Heim mieten oder direkt kaufen? InnoValley steht dir in beiden Fällen gerne zur Seite und vernetzt dich mit den Maklern im Eisacktal.</p>
             </div>
@@ -186,9 +180,9 @@
        
         <div class="content-right ">
             <div class="content-box h-100">
-                <h2 class="moveleft left" > <span class="h2">Alles</span> auf einen Blick</h2>
-                <h4 class="moveleft left" >Die Gemeinde Brixen</h4>
-                <p class="moveleft left" >hat ein informatives Portal geschaffen, das Basisinformationen klar verständlich zusammenfasst. Das Projekt ist an alle Neuankömmlinge in Brixen gerichtet – auch an jene, die noch auf Jobsuche sind.</p>
+                <h2> <span class="h2">Alles</span> auf einen Blick</h2>
+                <h4>Die Gemeinde Brixen</h4>
+                <p>hat ein informatives Portal geschaffen, das Basisinformationen klar verständlich zusammenfasst. Das Projekt ist an alle Neuankömmlinge in Brixen gerichtet – auch an jene, die noch auf Jobsuche sind.</p>
 
                 <div class="arrow-icon fw-bold moveleft left">
                     <a href="">  <span class="offene">Discover more </span> <i class="fa-regular fa-arrow-right-long"></i> </a>
@@ -196,7 +190,7 @@
             </div>
         </div>
         <div class="content-left">
-            <img class="moveright right" src="images/welcome/block_five.png" alt="">
+            <img src="images/welcome/block_five.png" alt="">
         </div>
     </div>
  </section>
@@ -309,15 +303,15 @@
         <div class="content-right">
             
             <div class="inno-box flex-column d-flex justify-content-center">
-                <h2 class="d-block text-center moveright" > <span class="h2">INNOVALLEY</span> </h2> 
-                <span class="span moveleft" >Welcome-Broschüre</span>
+                <h2 class="d-block text-center" > <span class="h2">INNOVALLEY</span> </h2> 
+                <span class="span" >Welcome-Broschüre</span>
             </div>
             <img class="book moveup" src="images/welcome/EDITION.png" alt="">
         </div>
         <div class="content-left">
             <div class="content-box h-100">
-                <h4 class="moveright right" >Die InnoValley Welcome- Broschüre</h4>
-                <p class="moveright right" >Die InnoValley Welcome-Broschüre dient dazu, dich willkommen zu heißen und dir Hilfestellungen zu geben, um dich in deiner neuen Heimat zurechtzufinden. Wir wollen diese Gelegenheit auch nutzen, um dich fernab von den bürokratischen Feinheiten, die ein Umzug mit sich bringt, mit den Eigenheiten des Eisacktaler Lebensraumes und seiner Bewohner vertraut zu machen. </p>
+                <h4 >Die InnoValley Welcome- Broschüre</h4>
+                <p class="fw-light" >Die InnoValley Welcome-Broschüre dient dazu, dich willkommen zu heißen und dir Hilfestellungen zu geben, um dich in deiner neuen Heimat zurechtzufinden. Wir wollen diese Gelegenheit auch nutzen, um dich fernab von den bürokratischen Feinheiten, die ein Umzug mit sich bringt, mit den Eigenheiten des Eisacktaler Lebensraumes und seiner Bewohner vertraut zu machen. </p>
                 <div class="arrow-icon fw-bold moveright right">
                     <a href="">  <span class="offene">Broschüre downloaden </span> <i class="fa-regular fa-arrow-right-long"></i> </a>
                   </div>
@@ -331,14 +325,14 @@
 <section id="card-id" class="card-section overflow-hidden">
     <div class="d-flex flex-column flex-md-row" >
         <div class="block-left ">
-               <img class="card-img moveleft left" src="images/welcome/cardone.png" alt="">
+               <img class="card-img" src="images/welcome/cardone.png" alt="">
         </div>
         <div class="block-right">
-           <h2 class="moveup" > <span class="h2"> Die</span> Inno-
+           <h2> <span class="h2"> Die</span> Inno-
             Valley Card</h2>
-           <h4 class="fw-light moveright right" >Vorteile entdecken</h4>
-           <p class="moveright right" >Die Desti-Card ist ein Marktplatz für Freizeitangebote, die InnoValley-Mitgliedern exklusiv bereitstehen. Sie wird von den HR-Abteilungen im InnoValley-Netzwerk verteilt; auf ihr befinden sich neben festgelegten Angebote auch buchbare Services, die den Onboarding-Prozess erleichtern</p>
-                <form class="moveright right" action="">
+           <h4 class="fw-light" >Vorteile entdecken</h4>
+           <p >Die Desti-Card ist ein Marktplatz für Freizeitangebote, die InnoValley-Mitgliedern exklusiv bereitstehen. Sie wird von den HR-Abteilungen im InnoValley-Netzwerk verteilt; auf ihr befinden sich neben festgelegten Angebote auch buchbare Services, die den Onboarding-Prozess erleichtern</p>
+                <form action="">
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="Kartencode" aria-label="Kartencode" aria-describedby="basic-addon2">
                         <div class="input-group-append">
@@ -353,48 +347,48 @@
  
 <!-- ===========================Link section ============================= -->
 <section class="link-section mt-200 mb-200 overflow-hidden">
-    <div class="container">
+    <div class="content-exl">
         <div class="heading text-start text-md-center">
-            <h2 class="moveleft left"> <span class="h2">Nützliche</span>  Links</h2>
-            <p class="pera moveright right">Alles, was du über das Eisacktal wissen musst: hier findest du hilfreiche Links, die in sämtlichen Lebensbereichen weiterhelfen können. Falls etwas fehlt oder du Fragen hast, melde dich gerne bei uns – wir versuchen, dir weiterzuhelfen.</p>
+            <h2> <span class="h2">Nützliche</span>  Links</h2>
+            <p class="pera">Alles, was du über das Eisacktal wissen musst: hier findest du hilfreiche Links, die in sämtlichen Lebensbereichen weiterhelfen können. Falls etwas fehlt oder du Fragen hast, melde dich gerne bei uns – wir versuchen, dir weiterzuhelfen.</p>
         </div>
         <div class="row">
             <div class="col-12 col-md-4">
-                <h4 class="moveleft left" >Allgemeine Links </h4>
+                <h4>Allgemeine Links </h4>
                 <ul class="list-unstyled" >
                     
                     <li class="d-flex justify-content-between">
-                        <div class="moveleft left" >
+                        <div>
                             <i class="d-none d-md-inline-block arrow-icon fa-regular fa-arrow-right-long"></i> <a href="">Link ipsum dolor sit</a>
                         </div>
                         <i class="d-md-none fa-regular fa-arrow-right-long"></i>
                     </li>
                     <li class="d-flex justify-content-between">
-                        <div class="moveleft left" >
+                        <div>
                             <i class="d-none d-md-inline-block arrow-icon fa-regular fa-arrow-right-long"></i> <a href="">Link ipsum dolor sit</a>
                         </div>
                         <i class="d-md-none fa-regular fa-arrow-right-long"></i>
                     </li>
                     <li class="d-flex justify-content-between">
-                        <div class="moveleft left" >
+                        <div>
                             <i class="d-none d-md-inline-block arrow-icon fa-regular fa-arrow-right-long"></i> <a href="">Link ipsum dolor sit</a>
                         </div>
                         <i class="d-md-none fa-regular fa-arrow-right-long"></i>
                     </li>
                     <li class="d-flex justify-content-between">
-                        <div class="moveleft left" >
+                        <div>
                             <i class="d-none d-md-inline-block arrow-icon fa-regular fa-arrow-right-long"></i> <a href="">Link ipsum dolor sit</a>
                         </div>
                         <i class="d-md-none fa-regular fa-arrow-right-long"></i>
                     </li>
                     <li class="d-flex justify-content-between">
-                        <div class="moveleft left" >
+                        <div>
                             <i class="d-none d-md-inline-block arrow-icon fa-regular fa-arrow-right-long"></i> <a href="">Link ipsum dolor sit</a>
                         </div>
                         <i class="d-md-none fa-regular fa-arrow-right-long"></i>
                     </li>
                     <li class="d-flex justify-content-between">
-                        <div class="moveleft left" >
+                        <div>
                             <i class="d-none d-md-inline-block arrow-icon fa-regular fa-arrow-right-long"></i> <a href="">Link ipsum dolor sit</a>
                         </div>
                         <i class="d-md-none fa-regular fa-arrow-right-long"></i>
@@ -403,86 +397,94 @@
                 </ul>
             </div>
             <div class="col-12 col-md-4">
-                <h4 class="moveup" >Wohnungssuche  </h4>
+                <div class="d-md-flex justify-content-md-center">
+                    <span>
+                        <h4 >Wohnungssuche  </h4>
                 <ul class="list-unstyled" >
                     <li class="d-flex justify-content-between">
-                        <div class="moveup" >
+                        <div >
                             <i class="d-none d-md-inline-block arrow-icon fa-regular fa-arrow-right-long"></i> <a href="">Link ipsum dolor sit</a>
                         </div>
                         <i class="d-md-none fa-regular fa-arrow-right-long"></i>
                     </li>
                     <li class="d-flex justify-content-between">
-                        <div class="moveup" >
+                        <div >
                             <i class="d-none d-md-inline-block arrow-icon fa-regular fa-arrow-right-long"></i> <a href="">Link ipsum dolor sit</a>
                         </div>
                         <i class="d-md-none fa-regular fa-arrow-right-long"></i>
                     </li>
                     <li class="d-flex justify-content-between">
-                        <div class="moveup" >
+                        <div >
                             <i class="d-none d-md-inline-block arrow-icon fa-regular fa-arrow-right-long"></i> <a href="">Link ipsum dolor sit</a>
                         </div>
                         <i class="d-md-none fa-regular fa-arrow-right-long"></i>
                     </li>
                     <li class="d-flex justify-content-between">
-                        <div class="moveup" >
+                        <div >
                             <i class="d-none d-md-inline-block arrow-icon fa-regular fa-arrow-right-long"></i> <a href="">Link ipsum dolor sit</a>
                         </div>
                         <i class="d-md-none fa-regular fa-arrow-right-long"></i>
                     </li>
                     <li class="d-flex justify-content-between">
-                        <div class="moveup" >
+                        <div >
                             <i class="d-none d-md-inline-block arrow-icon fa-regular fa-arrow-right-long"></i> <a href="">Link ipsum dolor sit</a>
                         </div>
                         <i class="d-md-none fa-regular fa-arrow-right-long"></i>
                     </li>
                     <li class="d-flex justify-content-between">
-                        <div class="moveup" >
+                        <div >
                             <i class="d-none d-md-inline-block arrow-icon fa-regular fa-arrow-right-long"></i> <a href="">Link ipsum dolor sit</a>
                         </div>
                         <i class="d-md-none fa-regular fa-arrow-right-long"></i>
                     </li>
                 </ul>
+                    </span>
+                </div>
             </div>
             <div class="col-12 col-md-4">
-                <h4 class="moveright right" >Freizeitangebote </h4>
+                <div class="d-md-flex justify-content-end">
+                    <span>
+                        <h4 >Freizeitangebote </h4>
                 <ul class="list-unstyled" >
                     <li class="d-flex justify-content-between">
-                        <div class="moveright right">
+                        <div>
                             <i class="d-none d-md-inline-block arrow-icon fa-regular fa-arrow-right-long"></i> <a href="">Link ipsum dolor sit</a>
                         </div>
                         <i class="d-md-none fa-regular fa-arrow-right-long"></i>
                     </li>
                     <li class="d-flex justify-content-between">
-                        <div class="moveright right">
+                        <div>
                             <i class="d-none d-md-inline-block arrow-icon fa-regular fa-arrow-right-long"></i> <a href="">Link ipsum dolor sit</a>
                         </div>
                         <i class="d-md-none fa-regular fa-arrow-right-long"></i>
                     </li>
                     <li class="d-flex justify-content-between">
-                        <div class="moveright right">
+                        <div>
                             <i class="d-none d-md-inline-block arrow-icon fa-regular fa-arrow-right-long"></i> <a href="">Link ipsum dolor sit</a>
                         </div>
                         <i class="d-md-none fa-regular fa-arrow-right-long"></i>
                     </li>
                     <li class="d-flex justify-content-between">
-                        <div class="moveright right">
+                        <div>
                             <i class="d-none d-md-inline-block arrow-icon fa-regular fa-arrow-right-long"></i> <a href="">Link ipsum dolor sit</a>
                         </div>
                         <i class="d-md-none fa-regular fa-arrow-right-long"></i>
                     </li>
                     <li class="d-flex justify-content-between">
-                        <div class="moveright right">
+                        <div>
                             <i class="d-none d-md-inline-block arrow-icon fa-regular fa-arrow-right-long"></i> <a href="">Link ipsum dolor sit</a>
                         </div>
                         <i class="d-md-none fa-regular fa-arrow-right-long"></i>
                     </li>
                     <li class="d-flex justify-content-between">
-                        <div class="moveright right">
+                        <div>
                             <i class="d-none d-md-inline-block arrow-icon fa-regular fa-arrow-right-long"></i> <a href="">Link ipsum dolor sit</a>
                         </div>
                         <i class="d-md-none fa-regular fa-arrow-right-long"></i>
                     </li>
                 </ul>
+                    </span>
+                </div>
             </div>
         </div>
     </div>
@@ -495,7 +497,7 @@
     <div class="container">
         <div class="title ">
              
-            <h2 class="h2 moveup ">Contact</h2>
+            <h2 class="h2 ">Contact</h2>
         </div>
         <div class="row">
             <div class=" col-12">
@@ -533,7 +535,7 @@
     <div class="container">
         <div class="title d-none d-md-block">
          
-            <h2 class="h2 moveleft left">Contact</h2>
+            <h2 class="h2 ">Contact</h2>
         </div>
         <div class="row">
             <div class="d-none d-md-block col-md-5 col-lg-4">
@@ -606,10 +608,12 @@
     </div>
 </div>
 <div class="d-none d-md-block">
-    <div class="fixed-contact-phone">
-        <i class="fa-thin fa-phone-volume"></i>
-    </div>
-</div>
+    <a href="tel:123-456-7890">
+     <div class="fixed-contact-phone">
+         <i class="fa-thin fa-phone-volume"></i>
+     </div>
+    </a>
+ </div>
 
 
 

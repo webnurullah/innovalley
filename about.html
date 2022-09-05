@@ -40,13 +40,7 @@
 </head>
 <body>
     <span id="mouse-circle"></span>
-    <section id="preloader">
-      <div class="content">
-        <div class="logo">
-          <img src="images/svg/logo-white.svg"/>
-        </div>
-      </div>
-    </section>
+
   
 <div class="menu-section">
     <div class="d-flex justify-content-between">
@@ -89,11 +83,11 @@
                 <h4 class="second-menu" >Das Netzwerk</h4>
                 <ul class="list-unstyled" >
                     <li><a href="about.html">About</a></li>
-                    <li><a href="about.html">Team</a></li>
-                    <li><a href="">Neues aus dem Netzwerk</a></li>
-                    <li><a href="">Partner & Sponsoren</a></li>
+                    <li><a class="hamburger-close" href="about.html#team-anchor">Team</a></li>
+                    <li><a class="hamburger-close" href="about.html#news-anchor">Neues aus dem Netzwerk</a></li>
+                    <li><a class="hamburger-close" href="about.html#partner-anchor">Partner & Sponsoren</a></li>
                 </ul>
-            
+             
         </div>
 </nav>
 
@@ -105,18 +99,20 @@
     <div class="d-flex h-100" >
         <div class="block-left d-flex ">
             <div class="inner-contnet align-self-center">
-                <h1 class="h1 moveleft left">About</h1>
-                <h3 class="fw-bold moveleft left" >INNOVALLEY ist ein Netzwerk</h3>
-                <p class="moveleft left" >aus Eisacktaler Unternehmen, die Innovation aus Tradition betreiben. Nach drei Jahren intensiver Aufbauarbeit gründeten die sechs Eisacktaler Unternehmen ALUPRESS, ACS-INFOMINDS, BARBIERI Electronic, DUKA, MICROTEC und PROGRESS am 29. Oktober 2020 aus der              Standortentwick-lungsinitiative INNOVALLEY ein eigenes Netzwerk mit Rechtsform. 
-                    Der Wettbewerb der Regionen um die schlausten Köpfe hat längst begonnen. Die sechs lokalen Spitzenbetriebe sind am Weltmarkt agierende „hidden champi-ons“ und haben INNOVALLEY als Netzwerk ins Leben gerufen, um die Herausforderung der Zukunft gemeinsam anzugehen.</p>
-                    <a class="moveleft left arrow-link text-decoration-none d-none d-md-block" href="">
+                <h1 class="h1">About</h1>
+                <h3 class="fw-bold" >INNOVALLEY ist ein Netzwerk</h3>
+                <p>aus Eisacktaler Unternehmen, die Innovation aus Tradition betreiben. Nach drei Jahren intensiver Aufbauarbeit gründeten die sechs Eisacktaler Unternehmen ALUPRESS, ACS-INFOMINDS, BARBIERI Electronic, DUKA, MICROTEC und PROGRESS am 29.
+                    Oktober 2020 aus der              Standortentwick-lungsinitiative INNOVALLEY ein eigenes Netzwerk mit Rechtsform. 
+                    Der Wettbewerb der Regionen um die schlausten Köpfe hat längst begonnen. Die sechs lokalen Spitzenbetriebe sind am Weltmarkt agierende „hidden champi-ons“ und haben INNOVALLEY als Netzwerk ins Leben gerufen, um die Herausforderung der Zukunft gemeinsam anzugehen.
+                  </p>
+                    <a class="arrow-link text-decoration-none d-none d-md-block" href="">
                         <span>Zum Team</span>
                         <i class="fa-solid fa-arrow-right-long"></i>
                     </a>
             </div>
         </div>
         <div class="block-right d-none d-md-block">
-            <img class="banner-img moveright right " src="images/banner/about-banner.png" alt="">
+            <img class="banner-img" src="images/banner/about-banner.png" alt="">
         </div>
     </div>
  </section>
@@ -144,10 +140,10 @@
 
 
  <!-- ================================== Team Section ================================ -->
- <section class="team-section overflow-hidden" >
+ <section id="team-anchor" class="team-section overflow-hidden" >
     <div class="container">
         <div class="title">
-            <h2 class="h2 moveleft left " >Team</h2>
+            <h2 class="h2" >Team</h2>
         </div>
     </div>
     <div class="team-slider-section">
@@ -218,12 +214,12 @@
 
 <!-- ================================== News Section ================================ -->
 
-<section class="news-section overflow-hidden" >
+<section id="news-anchor" class="news-section overflow-hidden" >
     <div class="container">
     
     <div class="title text-start text-md-center">
-        <h2 class="h2 moveleft left " >News</h2>
-        <p class="moveright right" >Neues aus dem Netzwerk</p>
+        <h2 class="h2" >News</h2>
+        <p >Neues aus dem Netzwerk</p>
     </div>
     
         <div class="row">
@@ -236,12 +232,12 @@
 </section>
 
 <!-- ================================== Partner Section ================================ -->
-<section class="partner-section overflow-hidden" >
+<section id="partner-anchor" class="partner-section overflow-hidden" >
     <div class="container">
         <div class="row">
             <div class="title text-start text-md-center">
-                <h2 class="moveleft left" > <span class="h2">Partner</span> & Sponsoren</h2>
-                <p class="fw-light moveup" >Ein besonderer Dank geht an unsere Partner, die uns helfen, Kirchtürme abzubauen, Leuchttürme zu erkennen, Standorte zu vernetzen und voneinander zu lernen. Automotive Excellence Südtirol, MIND, Basis Vinschgau und andere Standortinitiativen sind unsere lokalen Sponsoren
+                <h2> <span class="h2">Partner</span> & Sponsoren</h2>
+                <p>Ein besonderer Dank geht an unsere Partner, die uns helfen, Kirchtürme abzubauen, Leuchttürme zu erkennen, Standorte zu vernetzen und voneinander zu lernen. Automotive Excellence Südtirol, MIND, Basis Vinschgau und andere Standortinitiativen sind unsere lokalen Sponsoren
                 </p>
               
             </div>
@@ -295,7 +291,7 @@
     <div class="container">
         <div class="title ">
              
-            <h2 class="h2 moveup">Contact</h2>
+            <h2 class="h2">Contact</h2>
         </div>
         <div class="row">
             <div class=" col-12">
@@ -333,7 +329,7 @@
     <div class="container">
         <div class="title d-none d-md-block">
          
-            <h2 class="h2 moveleft left">Contact</h2>
+            <h2 class="h2">Contact</h2>
         </div>
         <div class="row">
             <div class="d-none d-md-block col-md-5 col-lg-4">
@@ -407,10 +403,12 @@
 </div>
 
 <div class="d-none d-md-block">
-    <div class="fixed-contact-phone">
-        <i class="fa-thin fa-phone-volume"></i>
-    </div>
-</div>
+    <a href="tel:123-456-7890">
+     <div class="fixed-contact-phone">
+         <i class="fa-thin fa-phone-volume"></i>
+     </div>
+    </a>
+ </div>
 
 
 

@@ -86,6 +86,9 @@
         padding-top: 90px;
         padding-bottom: 80px;
     }
+    .card-section .card-img{
+        margin-left: 60px;
+    }
 }
 
 /* ========================================== s1700 =========================================== */
@@ -215,6 +218,11 @@
         padding-top: 60px;
         padding-bottom: 60px;
     }
+    .card-section h2{
+        margin-bottom: 70px;
+        margin-top: 80px;
+    }
+  
 }
 
 
@@ -475,6 +483,7 @@
     }
     .card-section h2{
         margin-bottom: 60px;
+        margin-top: 70px;
     }
 }
 /* ========================================== s1200 =========================================== */
@@ -1081,6 +1090,7 @@
     }
     .card-section h2{
         margin-bottom: 30px;
+        margin-top: 0;
     }
     .card-section p{
         margin-top: 20px;

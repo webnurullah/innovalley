@@ -320,21 +320,6 @@ body.preloader-site {
     margin-bottom: 6px;
 }
 
-.hamburger:hover .menu-toggle span:first-child {
-    position: relative;
-    top: 4px;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-
-.hamburger:hover .menu-toggle span:last-child {
-    position: relative;
-    top: -4px;
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-}
 
 .hamburger.open span:first-child {
     position: relative;
@@ -354,6 +339,7 @@ body.preloader-site {
 
 .navigation h4 {
     color: #00a996;
+    font-weight: 700;
 }
 
 .navigation .second-menu {
@@ -365,7 +351,7 @@ body.preloader-site {
     display: inline-block;
     margin-top: 30px;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 1.56;
     letter-spacing: 0.18px;
 }
@@ -423,17 +409,20 @@ body.preloader-site {
 
 .card-section h2 {
     margin-bottom: 110px;
+    margin-top: 120px;
 }
 
 .card-section p {
     margin-top: 45px;
     margin-bottom: 60px;
     max-width: 888px;
+    font-weight: 300;
 }
 
 .card-section .card-img {
     width: 80%;
     object-fit: cover;
+    margin-left: 130px;
 }
 
 .card-section .form-control {
@@ -482,6 +471,7 @@ body.preloader-site {
 
 .link-section h4 {
     margin-bottom: 60px;
+    font-weight: 300;
 }
 
 .link-section .pera {
@@ -489,6 +479,7 @@ body.preloader-site {
     margin: auto;
     margin-top: 60px;
     margin-bottom: 100px;
+    font-weight: 300;
 }
 
 
@@ -598,6 +589,7 @@ body.preloader-site {
 }
 .content-block .content-box p{
     line-height: 28px;
+    font-weight: 300;
 }
 .content-block .content-box h4{
     margin-top: 60px;
@@ -991,7 +983,7 @@ body.preloader-site {
 .right {
     transform: translate(0);
     opacity: 1;
-    float: none !important
+    float: none !important;
 }
 
 .opacity .slick-what .slick-slide {
@@ -1182,7 +1174,8 @@ body.preloader-site {
 }
 
 .news .news-text-slider h4 {
-    margin-bottom: 45px
+    margin-bottom: 45px;
+    font-weight: 300;
 }
 
 .news .news-text-slider .mobile-news-trigger {
@@ -1199,7 +1192,9 @@ body.preloader-site {
     display: inline-block;
     vertical-align: middle
 }
-
+.news .news-text-slider p{
+    font-weight: 300;
+}
 .news .news-text-slider .news-hidden {
     opacity: 1;
     max-height: 100%
@@ -1354,6 +1349,7 @@ body.preloader-site {
     margin-bottom: 60px;
     font-size: 18px;
     line-height: 30px;
+    font-weight: 300;
 }
 
 .arrow-link span {
